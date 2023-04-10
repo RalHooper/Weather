@@ -11,12 +11,13 @@ body {
 }
 
 .box {
+  border-radius: 25px;
   display: block;
   padding: 20px 26px;
   width: 350px;
-  height: 300px;
+  height: 335px;
   text-align: center;
-  background-color: #D2B48C;
+  background-color: rgb(255, 255, 128);
   margin: 70px auto;
   box-shadow: 1px 1px 3px 2px rgba(142, 142, 142, 0.2);
 }
@@ -51,7 +52,7 @@ body {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 box h1 {
@@ -68,11 +69,17 @@ span {
   margin-top: 10px;
 }
 
-.box input {
-  background-color: white;
-  border: 0.7px solid #ddd;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  outline: none;
+.app .search {
+  text-align: center;
+  padding: 1rem;
 }
+
+.box .input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2 rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
